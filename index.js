@@ -54,6 +54,7 @@ convertBtn.addEventListener("click" , function(){
      ConKilogramsPounds.innerHTML = `<p id="text"> ${inputEl.value} kilos = 
      ${newValue.textContent = KiloToPound(inputEl.value)} pounds |
      ${inputEl.value} pounds = ${newValue.textContent = PoundToKilo(inputEl.value)} kilos </p>`
+     inputEl.value = ""
 })
 
 
